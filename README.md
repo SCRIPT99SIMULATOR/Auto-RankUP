@@ -1,2 +1,24 @@
 # Auto-RankUP
-PETSIMULATOR99
+PETSIMULATOR9
+getgenv().Config = {
+    ["EquipEnchants"] = {"Coins", "Diamonds", "Treasure Hunter", "Strong Pets", "Tap Power"},
+    ["KickWhenReachGoal"] = {
+        ["Rank"] = 8,
+        ["Rebirth"] = 9,
+        ["Area"] = 200
+    },
+    ["StopAt"] = {
+        ["Rank"] = 8, 
+        ["Area"] = 200
+    },
+    
+    ["AutoOpen"] = true,
+    ["AutoBalloon"] = true, -- WANT A BAN? REPORT A BUG IN THIS SCRIPT.
+
+    ["FPSBooster"] = true, -- REPORT NO SCRIPT BUGS.
+    ["UltraFPS"] = true, -- I WILL BAN YOU IF YOU REPORT ANY SCRIPT BUGS.
+    ["Webhook"] = "", -- DO NOT REPORT ANY SCRIPT BUGS. WE KNOW ITS BUGGED.
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/177d65e916988f4b84dd21ed33a2aa91.lua"))()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/tobi437a/Scripts/refs/heads/main/0cc8fc259add576d1f9cf2f9.lua'))()
